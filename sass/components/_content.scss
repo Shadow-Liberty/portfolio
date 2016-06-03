@@ -1,0 +1,36 @@
+.mainContent{
+    font-family: $ralewayStack;
+    &__article{
+        &__title{
+            font-family: $nexaRSLStack;
+            font-size: 84px;
+            color: #E5B796;
+        }
+        &__content{
+            font-family: $ralewayStack;
+            font-size: 20px;
+            line-height: 3.5rem;
+        }
+        &__project-title{
+            font-size: 36px;
+            color: #E5B796;
+            text-align: center;
+        }
+        &__project-type{
+            color: #E5B796;
+            font-size: 20px;
+        }
+        &__project-description{
+            text-align: center;
+            font-size: 20px;
+            &__more{
+                font-size: 15px;
+                color: #88888a;
+            }
+            &__more a{
+                text-decoration: none;
+                color: #88888a;
+            }
+        }
+    }
+}

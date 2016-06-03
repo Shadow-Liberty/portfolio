@@ -1,0 +1,183 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    font-size: 16px;
+    color: #3E3E40;
+}
+
+
+
+.header{
+    &__mainTitle{
+        font-size: 84px;
+        font-family: $nexaRSLStack;
+        color: #E5B796;
+        margin-top: 20rem;
+    }
+    &__mainNav{
+        background-color: #3E3E40;
+        font-family: Raleway;
+        font-size: 25px;
+        &__links{
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #E5B796;
+        }
+    }
+    &__greetings{
+        font-family: $nexaRSStack;
+        font-size: 144px;
+    }
+    &__about{
+        font-family: $nexaRSLStack;
+        font-size: 84px;
+        color: #E5B796
+    }
+    &__ctascrl{
+        font-family: $nexaREStack;
+        font-size: 64px;
+        transform: rotate(90deg);
+        color: #E5B796;
+    }
+    &__arrow{
+        font-family: $nexaREStack;
+        font-size: 20px;
+        transform: rotate(-90deg);
+        color: #E5B796;
+    }
+}
+
+.header-project{
+    &__mainTitle{
+        font-size: 84px;
+        font-family: $nexaRSLStack;
+        color: #E5B796;
+        margin-top: 20rem;
+    }
+    &__mainNav{
+        background-color: #3E3E40;
+        font-family: Raleway;
+        font-size: 25px;
+        &__links{
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #E5B796;
+        }
+    }
+    &__arrow{
+        font-family: $nexaREStack;
+        font-size: 20px;
+        transform: rotate(-90deg);
+        color: #E5B796;
+    }
+}
+
+@media screen and (max-width: 546px){
+    .header{
+        &__mainNav {
+            font-size: 20px;
+            &__links{
+
+            }
+        }
+    }
+    .header-project{
+        &__mainNav {
+            font-size: 20px;
+            &__links{
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 440px){
+    .header{
+        &__mainNav {
+            font-size: 18px;
+            &__links{
+
+            }
+        }
+    }
+    .header-project{
+        &__mainNav {
+            font-size: 18px;
+            &__links{
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1422px){
+    .header{
+        &__greetings{
+            font-size: 130px;
+        }
+        &__about{
+            font-size: 71px;
+        }
+    }
+    .header-project{
+        &__greetings{
+            font-size: 130px;
+        }
+        &__about{
+            font-size: 71px;
+        }
+    }
+}
+
+@media screen and (max-width: 1319px){
+    .header{
+        &__greetings{
+            font-size: 120px;
+        }
+        &__about{
+            font-size: 61px;
+        }
+    }
+    .header-project{
+        &__greetings{
+            font-size: 120px;
+        }
+        &__about{
+            font-size: 61px;
+        }
+    }
+}
+
+@media screen and (max-width: 983px){
+    .header{
+        &__greetings{
+            font-size: 100px;
+        }
+        &__about{
+            font-size: 45px;
+        }
+    }
+    .header-project{
+        &__greetings{
+            font-size: 100px;
+        }
+        &__about{
+            font-size: 45px;
+        }
+    }
+}
+
+@media screen and (max-width: 575px){
+    .header{
+        &__greetings{
+            font-size: 70px;
+        }
+    }
+    .header-project{
+        &__greetings{
+            font-size: 70px;
+        }
+    }
+}

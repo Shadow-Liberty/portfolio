@@ -1,0 +1,174 @@
+body{
+    background-image: url("../assets/handmadepaper.png");
+        overflow-x: hidden;
+}
+
+.mainTitle{
+    display: none;
+}
+
+.header-project{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    &__mainTitle::before{
+
+    }
+    &__navWrapper{
+        height: 5.6rem;
+        position: absolute;
+        width: 100%;
+        z-index: 98;
+    }
+    &__mainNav{
+        width: 100%;
+        margin: 0 auto;
+        padding: 1rem 18rem;
+        position: absolute;
+        margin-top: -5.6rem;
+        &__links:first-child{
+            padding-left: 0;
+        }
+        &__links{
+            padding-left: 18%;
+        }
+    }
+    &__arrow{
+        position: absolute;
+        z-index: 2;
+
+    }
+    &__arrow{
+        position: relative;
+        top: 2rem;
+    }
+}
+
+.header{
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    &__mainTitle{
+
+    }
+    &__navWrapper{
+        height: 5.6rem;
+        position: absolute;
+        width: 100%;
+        z-index: 99;
+    }
+    &__mainNav{
+        width: 100%;
+        margin: 0 auto;
+        padding: 1rem 18rem;
+        position: absolute;
+        margin-top: -5.6rem;
+        &__links:first-child{
+            padding-left: 0;
+        }
+        &__links{
+            padding-left: 18%;
+        }
+    }
+    &__arrow{
+        z-index: 1;
+
+    }
+    &__greetings{
+        position: relative;
+        top: 15rem;
+        padding: 0 18rem;
+    }
+    &__greetings span{
+        display: block;
+    }
+    &__greetings__top{
+        padding-bottom: 1rem;
+
+    }
+    &__about{
+        position: relative;
+        top: 15rem;
+        left: 18rem;
+    }
+    &__ctascrl{
+        position: relative;
+        top: 30rem;
+    }
+    &__arrow{
+        position: relative;
+        top: 2rem;
+    }
+}
+
+@media screen and (max-width: 1098px) {
+    .header{
+        &__mainNav {
+            &__links{
+                padding-left: 10%;
+            }
+        }
+    }
+    .header-project{
+        &__mainNav {
+            &__links{
+                padding-left: 10%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 950px){
+    .header{
+        &__mainNav {
+            padding: 1rem 1rem;
+            &__links{
+                padding-left: 5%;
+            }
+        }
+    }
+    .header-project{
+        &__mainNav {
+            padding: 1rem 1rem;
+            &__links{
+                padding-left: 5%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1245px){
+    .header{
+        &__greetings{
+            padding: 0 5%;
+        }
+    }
+    .header-project{
+        &__greetings{
+            padding: 0 5%;
+        }
+    }
+}
+
+@media screen and (max-width: 983px){
+    .header{
+        &__greetings{
+
+        }
+        &__about{
+            position: relative;
+            top: 15rem;
+            left: 0;
+        }
+    }
+    .header-project{
+        &__greetings{
+
+        }
+        &__about{
+            position: relative;
+            top: 15rem;
+            left: 0;
+        }
+    }
+}

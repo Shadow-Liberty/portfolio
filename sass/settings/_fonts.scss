@@ -1,0 +1,52 @@
+$ralewayStack: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+$nexaRSStack: 'NexaRustS', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+$nexaRSLStack: 'NexaRustSL', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+$nexaREStack: 'NexaRustE', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+@font-face {
+    font-family: 'Raleway';
+    @import 'https://fonts.googleapis.com/css?family=Raleway';
+}
+
+@font-face {
+    font-family: 'NexaRustS';
+    src: url('../assets/fonts/NexaRustSlab-BlackShadow01-Free-webfont.eot');
+    src: url('../assets/fonts/NexaRustSlab-BlackShadow01-Free-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/NexaRustSlab-BlackShadow01-Free-webfont.woff2') format('woff2'),
+         url('../assets/fonts/NexaRustSlab-BlackShadow01-Free-webfont.woff') format('woff'),
+         url('../assets/fonts/NexaRustSlab-BlackShadow01-Free-webfont.ttf') format('truetype'),
+         url('../assets/fonts/NexaRustSlab-BlackShadow01-Free-webfont.svg#nexa_rust_slabblack_shadow_01') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'NexaRustSL';
+    src: url('../assets/fonts/NexaRustScriptL-0-Free-webfont.eot');
+    src: url('../assets/fonts/NexaRustScriptL-0-Free-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/NexaRustScriptL-0-Free-webfont.woff2') format('woff2'),
+         url('../assets/fonts/NexaRustScriptL-0-Free-webfont.woff') format('woff'),
+         url('../assets/fonts/NexaRustScriptL-0-Free-webfont.ttf') format('truetype'),
+         url('../assets/fonts/NexaRustScriptL-0-Free-webfont.svg#nexa_rust_script_l0regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'NexaRustE';
+    src: url('../assets/fonts/NexaRustExtras-Free-webfont.eot');
+    src: url('../assets/fonts/NexaRustExtras-Free-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/NexaRustExtras-Free-webfont.woff2') format('woff2'),
+         url('../assets/fonts/NexaRustExtras-Free-webfont.woff') format('woff'),
+         url('../assets/fonts/NexaRustExtras-Free-webfont.ttf') format('truetype'),
+         url('../assets/fonts/NexaRustExtras-Free-webfont.svg#nexa_rust_extrasfree') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

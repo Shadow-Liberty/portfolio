@@ -1,0 +1,408 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+@font-face {
+  font-family: 'Raleway'; }
+
+@font-face {
+  font-family: 'NexaRustS';
+  src: url("../assets/fonts/NexaRustSlab-BlackShadow01-Free-webfont.eot");
+  src: url("../assets/fonts/NexaRustSlab-BlackShadow01-Free-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/NexaRustSlab-BlackShadow01-Free-webfont.woff2") format("woff2"), url("../assets/fonts/NexaRustSlab-BlackShadow01-Free-webfont.woff") format("woff"), url("../assets/fonts/NexaRustSlab-BlackShadow01-Free-webfont.ttf") format("truetype"), url("../assets/fonts/NexaRustSlab-BlackShadow01-Free-webfont.svg#nexa_rust_slabblack_shadow_01") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'NexaRustSL';
+  src: url("../assets/fonts/NexaRustScriptL-0-Free-webfont.eot");
+  src: url("../assets/fonts/NexaRustScriptL-0-Free-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/NexaRustScriptL-0-Free-webfont.woff2") format("woff2"), url("../assets/fonts/NexaRustScriptL-0-Free-webfont.woff") format("woff"), url("../assets/fonts/NexaRustScriptL-0-Free-webfont.ttf") format("truetype"), url("../assets/fonts/NexaRustScriptL-0-Free-webfont.svg#nexa_rust_script_l0regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'NexaRustE';
+  src: url("../assets/fonts/NexaRustExtras-Free-webfont.eot");
+  src: url("../assets/fonts/NexaRustExtras-Free-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/NexaRustExtras-Free-webfont.woff2") format("woff2"), url("../assets/fonts/NexaRustExtras-Free-webfont.woff") format("woff"), url("../assets/fonts/NexaRustExtras-Free-webfont.ttf") format("truetype"), url("../assets/fonts/NexaRustExtras-Free-webfont.svg#nexa_rust_extrasfree") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+body {
+  background-image: url("../assets/handmadepaper.png");
+  overflow-x: hidden; }
+
+.mainTitle {
+  display: none; }
+
+.header-project {
+  height: auto;
+  width: 100%;
+  text-align: center; }
+  .header-project__navWrapper {
+    height: 5.6rem;
+    position: absolute;
+    width: 100%;
+    z-index: 98; }
+  .header-project__mainNav {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem 18rem;
+    position: absolute;
+    margin-top: -5.6rem; }
+    .header-project__mainNav__links:first-child {
+      padding-left: 0; }
+    .header-project__mainNav__links {
+      padding-left: 18%; }
+  .header-project__arrow {
+    position: absolute;
+    z-index: 2; }
+  .header-project__arrow {
+    position: relative;
+    top: 2rem; }
+
+.header {
+  width: 100%;
+  text-align: center;
+  height: 100vh; }
+  .header__navWrapper {
+    height: 5.6rem;
+    position: absolute;
+    width: 100%;
+    z-index: 99; }
+  .header__mainNav {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem 18rem;
+    position: absolute;
+    margin-top: -5.6rem; }
+    .header__mainNav__links:first-child {
+      padding-left: 0; }
+    .header__mainNav__links {
+      padding-left: 18%; }
+  .header__arrow {
+    z-index: 1; }
+  .header__greetings {
+    position: relative;
+    top: 15rem;
+    padding: 0 18rem; }
+  .header__greetings span {
+    display: block; }
+  .header__greetings__top {
+    padding-bottom: 1rem; }
+  .header__about {
+    position: relative;
+    top: 15rem;
+    left: 18rem; }
+  .header__ctascrl {
+    position: relative;
+    top: 30rem; }
+  .header__arrow {
+    position: relative;
+    top: 2rem; }
+
+@media screen and (max-width: 1098px) {
+  .header__mainNav__links {
+    padding-left: 10%; }
+  .header-project__mainNav__links {
+    padding-left: 10%; } }
+
+@media screen and (max-width: 950px) {
+  .header__mainNav {
+    padding: 1rem 1rem; }
+    .header__mainNav__links {
+      padding-left: 5%; }
+  .header-project__mainNav {
+    padding: 1rem 1rem; }
+    .header-project__mainNav__links {
+      padding-left: 5%; } }
+
+@media screen and (max-width: 1245px) {
+  .header__greetings {
+    padding: 0 5%; }
+  .header-project__greetings {
+    padding: 0 5%; } }
+
+@media screen and (max-width: 983px) {
+  .header__about {
+    position: relative;
+    top: 15rem;
+    left: 0; }
+  .header-project__about {
+    position: relative;
+    top: 15rem;
+    left: 0; } }
+
+.mainContent {
+  width: 100%;
+  padding: 0 180px; }
+  .mainContent__article {
+    margin-top: 10rem; }
+    .mainContent__article__authentic {
+      display: block;
+      width: 100%;
+      margin-bottom: 10rem; }
+    .mainContent__article__title-1 {
+      float: right;
+      margin-right: 7rem; }
+    .mainContent__article__content-1 {
+      float: right;
+      width: 69.5rem; }
+    .mainContent__article__img-1 {
+      float: left;
+      margin-bottom: 10rem; }
+    .mainContent__article__content {
+      padding-top: 9.5rem; }
+    .mainContent__article__content-2 {
+      width: 69.5rem; }
+    .mainContent__article__img-2 {
+      float: right;
+      display: block;
+      margin-bottom: 10rem; }
+    .mainContent__article__title-3 {
+      float: right; }
+    .mainContent__article__title-3::after {
+      display: block;
+      content: "";
+      clear: both; }
+    .mainContent__article__skills-me {
+      clear: both;
+      display: block;
+      float: left; }
+    .mainContent__article__skills {
+      float: right;
+      padding-right: 5rem;
+      width: 22rem;
+      padding-top: 5rem; }
+    .mainContent__article__project {
+      display: block;
+      width: 73.2rem;
+      margin: 0 auto; }
+    .mainContent__article__project-title {
+      margin-top: 2rem; }
+    .mainContent__article__project-type {
+      text-align: center;
+      display: block;
+      margin-top: 1rem;
+      margin-bottom: 1rem; }
+    .mainContent__article__project-description {
+      text-align: center;
+      font-size: 20px;
+      margin: 5rem auto;
+      width: 70rem; }
+      .mainContent__article__project-description__more {
+        display: block;
+        margin: 2rem auto; }
+
+@media screen and (max-width: 1295px) {
+  .mainContent {
+    padding: 0 5%; } }
+
+@media screen and (max-width: 1040px) {
+  .mainContent__article__content-1 {
+    width: 60%; }
+  .mainContent__article__title {
+    float: none;
+    margin: 0 auto;
+    text-align: center; }
+  .mainContent__article__title-1 {
+    float: none;
+    margin: 0 auto; }
+  .mainContent__article__title-3 {
+    float: none;
+    margin: 0 auto; } }
+
+@media screen and (max-width: 810px) {
+  .mainContent__article__project-description {
+    width: 100%; }
+  .mainContent__article__project {
+    width: 100%; } }
+
+html {
+  font-size: 10px; }
+
+body {
+  font-size: 16px;
+  color: #3E3E40; }
+
+.header__mainTitle {
+  font-size: 84px;
+  font-family: "NexaRustSL", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #E5B796;
+  margin-top: 20rem; }
+
+.header__mainNav {
+  background-color: #3E3E40;
+  font-family: Raleway;
+  font-size: 25px; }
+  .header__mainNav__links {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #E5B796; }
+
+.header__greetings {
+  font-family: "NexaRustS", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 144px; }
+
+.header__about {
+  font-family: "NexaRustSL", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 84px;
+  color: #E5B796; }
+
+.header__ctascrl {
+  font-family: "NexaRustE", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 64px;
+  transform: rotate(90deg);
+  color: #E5B796; }
+
+.header__arrow {
+  font-family: "NexaRustE", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  transform: rotate(-90deg);
+  color: #E5B796; }
+
+.header-project__mainTitle {
+  font-size: 84px;
+  font-family: "NexaRustSL", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #E5B796;
+  margin-top: 20rem; }
+
+.header-project__mainNav {
+  background-color: #3E3E40;
+  font-family: Raleway;
+  font-size: 25px; }
+  .header-project__mainNav__links {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #E5B796; }
+
+.header-project__arrow {
+  font-family: "NexaRustE", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  transform: rotate(-90deg);
+  color: #E5B796; }
+
+@media screen and (max-width: 546px) {
+  .header__mainNav {
+    font-size: 20px; }
+  .header-project__mainNav {
+    font-size: 20px; } }
+
+@media screen and (max-width: 440px) {
+  .header__mainNav {
+    font-size: 18px; }
+  .header-project__mainNav {
+    font-size: 18px; } }
+
+@media screen and (max-width: 1422px) {
+  .header__greetings {
+    font-size: 130px; }
+  .header__about {
+    font-size: 71px; }
+  .header-project__greetings {
+    font-size: 130px; }
+  .header-project__about {
+    font-size: 71px; } }
+
+@media screen and (max-width: 1319px) {
+  .header__greetings {
+    font-size: 120px; }
+  .header__about {
+    font-size: 61px; }
+  .header-project__greetings {
+    font-size: 120px; }
+  .header-project__about {
+    font-size: 61px; } }
+
+@media screen and (max-width: 983px) {
+  .header__greetings {
+    font-size: 100px; }
+  .header__about {
+    font-size: 45px; }
+  .header-project__greetings {
+    font-size: 100px; }
+  .header-project__about {
+    font-size: 45px; } }
+
+@media screen and (max-width: 575px) {
+  .header__greetings {
+    font-size: 70px; }
+  .header-project__greetings {
+    font-size: 70px; } }
+
+.mainContent {
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .mainContent__article__title {
+    font-family: "NexaRustSL", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 84px;
+    color: #E5B796; }
+  .mainContent__article__content {
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 3.5rem; }
+  .mainContent__article__project-title {
+    font-size: 36px;
+    color: #E5B796;
+    text-align: center; }
+  .mainContent__article__project-type {
+    color: #E5B796;
+    font-size: 20px; }
+  .mainContent__article__project-description {
+    text-align: center;
+    font-size: 20px; }
+    .mainContent__article__project-description__more {
+      font-size: 15px;
+      color: #88888a; }
+    .mainContent__article__project-description__more a {
+      text-decoration: none;
+      color: #88888a; }
+
+/*# sourceMappingURL=styles.css.map */
